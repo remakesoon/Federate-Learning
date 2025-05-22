@@ -1,0 +1,1201 @@
+TRAINER INFO: 
+	client number: 3
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Sat Apr 19 13:49:42 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5349 Top-5 Accuracy: 0.977 time: Sat Apr 19 13:50:48 2025
+00:01:06
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.6784 Top-5 Accuracy: 0.9935 time: Sat Apr 19 13:51:24 2025
+00:01:42
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.8807 Top-5 Accuracy: 0.9987 time: Sat Apr 19 13:51:59 2025
+00:02:18
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9324 Top-5 Accuracy: 0.9995 time: Sat Apr 19 13:52:34 2025
+00:02:52
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9562 Top-5 Accuracy: 0.9999 time: Sat Apr 19 13:53:10 2025
+00:03:29
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9655 Top-5 Accuracy: 1.0 time: Sat Apr 19 13:53:47 2025
+00:04:05
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9642 Top-5 Accuracy: 0.9998 time: Sat Apr 19 13:54:23 2025
+00:04:41
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9683 Top-5 Accuracy: 0.9998 time: Sat Apr 19 13:54:57 2025
+00:05:15
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9702 Top-5 Accuracy: 0.9999 time: Sat Apr 19 13:55:31 2025
+00:05:50
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9626 Top-5 Accuracy: 0.9998 time: Sat Apr 19 13:56:06 2025
+00:06:24
+TRAINER INFO: 
+	client number: 3
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Sat Apr 19 14:05:02 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5866 Top-5 Accuracy: 0.9736 time: Sat Apr 19 14:06:09 2025
+00:01:06
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.6892 Top-5 Accuracy: 0.9936 time: Sat Apr 19 14:06:45 2025
+00:01:42
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9038 Top-5 Accuracy: 0.9992 time: Sat Apr 19 14:07:21 2025
+00:02:19
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9465 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:07:57 2025
+00:02:55
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9356 Top-5 Accuracy: 0.9985 time: Sat Apr 19 14:08:33 2025
+00:03:30
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.944 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:09:11 2025
+00:04:08
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9515 Top-5 Accuracy: 0.9995 time: Sat Apr 19 14:09:48 2025
+00:04:45
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9678 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:10:24 2025
+00:05:21
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9706 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:11:00 2025
+00:05:57
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9678 Top-5 Accuracy: 0.9996 time: Sat Apr 19 14:11:39 2025
+00:06:36
+TRAINER INFO: 
+	client number: 3
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Sat Apr 19 14:29:13 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5724 Top-5 Accuracy: 0.9659 time: Sat Apr 19 14:30:19 2025
+00:01:06
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.7983 Top-5 Accuracy: 0.9923 time: Sat Apr 19 14:30:55 2025
+00:01:42
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9236 Top-5 Accuracy: 0.9992 time: Sat Apr 19 14:31:30 2025
+00:02:17
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9548 Top-5 Accuracy: 0.9995 time: Sat Apr 19 14:32:05 2025
+00:02:52
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9584 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:32:39 2025
+00:03:26
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9639 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:33:14 2025
+00:04:01
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9683 Top-5 Accuracy: 0.9993 time: Sat Apr 19 14:33:49 2025
+00:04:36
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9582 Top-5 Accuracy: 0.9996 time: Sat Apr 19 14:34:24 2025
+00:05:11
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9592 Top-5 Accuracy: 0.9993 time: Sat Apr 19 14:35:00 2025
+00:05:47
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9483 Top-5 Accuracy: 0.9994 time: Sat Apr 19 14:35:35 2025
+00:06:22
+TRAINER INFO: 
+	client number: 3
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDyn
+	device: cpu
+	time: Sat Apr 19 14:36:54 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5669 Top-5 Accuracy: 0.9699 time: Sat Apr 19 14:38:01 2025
+00:01:07
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.8459 Top-5 Accuracy: 0.9974 time: Sat Apr 19 14:38:38 2025
+00:01:44
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7329 Top-5 Accuracy: 0.9946 time: Sat Apr 19 14:39:17 2025
+00:02:23
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.8754 Top-5 Accuracy: 0.999 time: Sat Apr 19 14:39:56 2025
+00:03:02
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9461 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:40:34 2025
+00:03:40
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9533 Top-5 Accuracy: 0.9997 time: Sat Apr 19 14:41:12 2025
+00:04:18
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9669 Top-5 Accuracy: 0.9998 time: Sat Apr 19 14:41:50 2025
+00:04:56
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9677 Top-5 Accuracy: 0.9998 time: Sat Apr 19 14:42:31 2025
+00:05:37
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9665 Top-5 Accuracy: 0.9998 time: Sat Apr 19 14:43:10 2025
+00:06:16
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9698 Top-5 Accuracy: 0.9998 time: Sat Apr 19 14:43:50 2025
+00:06:56
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Sat Apr 19 14:52:37 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1465 Top-5 Accuracy: 0.5598 time: Sat Apr 19 15:21:58 2025
+00:29:22
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2783 Top-5 Accuracy: 0.8424 time: Sat Apr 19 15:49:32 2025
+00:56:55
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.3991 Top-5 Accuracy: 0.9232 time: Sat Apr 19 16:16:32 2025
+01:23:55
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.4898 Top-5 Accuracy: 0.9504 time: Sat Apr 19 16:44:31 2025
+01:51:54
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4786 Top-5 Accuracy: 0.9499 time: Sat Apr 19 17:12:04 2025
+02:19:27
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.5438 Top-5 Accuracy: 0.9549 time: Sat Apr 19 17:41:44 2025
+02:49:08
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5629 Top-5 Accuracy: 0.9627 time: Sat Apr 19 18:08:11 2025
+03:15:34
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5463 Top-5 Accuracy: 0.9543 time: Sat Apr 19 18:34:12 2025
+03:41:35
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.5167 Top-5 Accuracy: 0.9489 time: Sat Apr 19 19:00:10 2025
+04:07:33
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5734 Top-5 Accuracy: 0.9607 time: Sat Apr 19 19:26:23 2025
+04:33:46
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Sun Apr 20 00:22:12 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.206 Top-5 Accuracy: 0.5365 time: Sun Apr 20 01:56:24 2025
+01:34:12
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2692 Top-5 Accuracy: 0.8455 time: Sun Apr 20 03:08:46 2025
+02:46:34
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.4419 Top-5 Accuracy: 0.9403 time: Sun Apr 20 04:11:16 2025
+03:49:04
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.4982 Top-5 Accuracy: 0.9516 time: Sun Apr 20 05:13:54 2025
+04:51:42
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.5138 Top-5 Accuracy: 0.9587 time: Sun Apr 20 06:16:31 2025
+05:54:19
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.5462 Top-5 Accuracy: 0.9597 time: Sun Apr 20 07:19:13 2025
+06:57:01
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5288 Top-5 Accuracy: 0.953 time: Sun Apr 20 08:22:03 2025
+07:59:51
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5774 Top-5 Accuracy: 0.9564 time: Sun Apr 20 09:24:51 2025
+09:02:38
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.5395 Top-5 Accuracy: 0.9571 time: Sun Apr 20 10:27:58 2025
+10:05:46
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5614 Top-5 Accuracy: 0.9586 time: Sun Apr 20 11:55:10 2025
+11:32:58
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDyn
+	device: cpu
+	time: Wed Apr 23 08:16:27 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1668 Top-5 Accuracy: 0.5451 time: Wed Apr 23 08:50:14 2025
+00:33:47
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2492 Top-5 Accuracy: 0.8297 time: Wed Apr 23 09:25:11 2025
+01:08:44
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.4192 Top-5 Accuracy: 0.9123 time: Wed Apr 23 09:56:15 2025
+01:39:48
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.4978 Top-5 Accuracy: 0.9514 time: Wed Apr 23 10:26:45 2025
+02:10:18
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.5164 Top-5 Accuracy: 0.9644 time: Wed Apr 23 11:02:14 2025
+02:45:47
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.5742 Top-5 Accuracy: 0.9703 time: Wed Apr 23 11:39:19 2025
+03:22:52
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5883 Top-5 Accuracy: 0.9726 time: Wed Apr 23 12:16:35 2025
+04:00:08
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.605 Top-5 Accuracy: 0.9723 time: Wed Apr 23 12:52:48 2025
+04:36:21
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.6114 Top-5 Accuracy: 0.9735 time: Wed Apr 23 13:22:45 2025
+05:06:18
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.6249 Top-5 Accuracy: 0.9716 time: Wed Apr 23 13:54:04 2025
+05:37:37
+
+seed: 42
+TRAINER INFO: 
+	client number: 3
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Sat Apr 26 15:06:15 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5589 Top-5 Accuracy: 0.9639 time: Sat Apr 26 15:07:17 2025
+00:01:02
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9135 Top-5 Accuracy: 0.9993 time: Sat Apr 26 15:07:50 2025
+00:01:35
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9613 Top-5 Accuracy: 0.9997 time: Sat Apr 26 15:08:23 2025
+00:02:09
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9371 Top-5 Accuracy: 0.9991 time: Sat Apr 26 15:08:57 2025
+00:02:42
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9742 Top-5 Accuracy: 0.9996 time: Sat Apr 26 15:09:31 2025
+00:03:16
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9608 Top-5 Accuracy: 0.9992 time: Sat Apr 26 15:10:05 2025
+00:03:50
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9769 Top-5 Accuracy: 0.9995 time: Sat Apr 26 15:10:40 2025
+00:04:25
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9705 Top-5 Accuracy: 0.9997 time: Sat Apr 26 15:11:14 2025
+00:04:59
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9503 Top-5 Accuracy: 0.9992 time: Sat Apr 26 15:11:48 2025
+00:05:33
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9469 Top-5 Accuracy: 0.9996 time: Sat Apr 26 15:12:23 2025
+00:06:08
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Sun Apr 27 23:16:34 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9097Top-5 Accuracy: 0.9978 time: Sun Apr 27 23:18:51 2025
+00:02:17
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9706Top-5 Accuracy: 1.0 time: Sun Apr 27 23:19:27 2025
+00:02:53
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9745Top-5 Accuracy: 1.0 time: Sun Apr 27 23:20:02 2025
+00:03:28
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9811Top-5 Accuracy: 1.0 time: Sun Apr 27 23:20:38 2025
+00:04:04
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.983Top-5 Accuracy: 1.0 time: Sun Apr 27 23:21:14 2025
+00:04:40
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9843Top-5 Accuracy: 1.0 time: Sun Apr 27 23:21:48 2025
+00:05:14
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9844Top-5 Accuracy: 1.0 time: Sun Apr 27 23:22:22 2025
+00:05:48
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9856Top-5 Accuracy: 1.0 time: Sun Apr 27 23:22:58 2025
+00:06:24
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.987Top-5 Accuracy: 0.9999 time: Sun Apr 27 23:23:47 2025
+00:07:12
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9866Top-5 Accuracy: 1.0 time: Sun Apr 27 23:24:38 2025
+00:08:04
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDyn
+	device: cpu
+	time: Tue Apr 29 16:33:34 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5492 Top-5 Accuracy: 0.9856 time: Tue Apr 29 16:35:41 2025
+00:02:06
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.8598 Top-5 Accuracy: 0.9975 time: Tue Apr 29 16:36:15 2025
+00:02:41
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9359 Top-5 Accuracy: 0.9993 time: Tue Apr 29 16:36:54 2025
+00:03:19
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9384 Top-5 Accuracy: 0.9999 time: Tue Apr 29 16:37:37 2025
+00:04:02
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9585 Top-5 Accuracy: 1.0 time: Tue Apr 29 16:38:13 2025
+00:04:39
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9648 Top-5 Accuracy: 1.0 time: Tue Apr 29 16:38:51 2025
+00:05:16
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9367 Top-5 Accuracy: 0.9999 time: Tue Apr 29 16:39:29 2025
+00:05:54
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9628 Top-5 Accuracy: 0.9998 time: Tue Apr 29 16:40:04 2025
+00:06:29
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9738 Top-5 Accuracy: 1.0 time: Tue Apr 29 16:40:39 2025
+00:07:04
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9769 Top-5 Accuracy: 1.0 time: Tue Apr 29 16:41:13 2025
+00:07:39
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Wed Apr 30 15:24:15 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.609Top-5 Accuracy: 0.9882 time: Wed Apr 30 15:26:26 2025
+00:02:12
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.7117Top-5 Accuracy: 0.9884 time: Wed Apr 30 15:27:02 2025
+00:02:47
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9239Top-5 Accuracy: 0.9993 time: Wed Apr 30 15:27:39 2025
+00:03:24
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9502Top-5 Accuracy: 0.9997 time: Wed Apr 30 15:28:15 2025
+00:04:00
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9655Top-5 Accuracy: 1.0 time: Wed Apr 30 15:28:51 2025
+00:04:36
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9568Top-5 Accuracy: 0.9998 time: Wed Apr 30 15:29:28 2025
+00:05:13
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9713Top-5 Accuracy: 1.0 time: Wed Apr 30 15:30:03 2025
+00:05:49
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9739Top-5 Accuracy: 1.0 time: Wed Apr 30 15:30:40 2025
+00:06:25
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9761Top-5 Accuracy: 1.0 time: Wed Apr 30 15:31:19 2025
+00:07:05
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9543Top-5 Accuracy: 0.9997 time: Wed Apr 30 15:31:57 2025
+00:07:42
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Wed Apr 30 15:37:01 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.4194Top-5 Accuracy: 0.9572 time: Wed Apr 30 15:39:10 2025
+00:02:10
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.7376Top-5 Accuracy: 0.9952 time: Wed Apr 30 15:39:50 2025
+00:02:49
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.831Top-5 Accuracy: 0.9983 time: Wed Apr 30 15:40:28 2025
+00:03:28
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9343Top-5 Accuracy: 0.9995 time: Wed Apr 30 15:41:05 2025
+00:04:05
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9381Top-5 Accuracy: 0.9999 time: Wed Apr 30 15:41:41 2025
+00:04:40
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9542Top-5 Accuracy: 1.0 time: Wed Apr 30 15:42:16 2025
+00:05:16
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9574Top-5 Accuracy: 0.9997 time: Wed Apr 30 15:42:52 2025
+00:05:51
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9495Top-5 Accuracy: 0.9998 time: Wed Apr 30 15:43:27 2025
+00:06:26
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9371Top-5 Accuracy: 0.9997 time: Wed Apr 30 15:44:02 2025
+00:07:01
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9606Top-5 Accuracy: 1.0 time: Wed Apr 30 15:44:37 2025
+00:07:36
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Wed Apr 30 16:24:30 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.6215 Top-5 Accuracy: 0.9844 time: Wed Apr 30 16:26:33 2025
+00:02:03
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.8907 Top-5 Accuracy: 0.9974 time: Wed Apr 30 16:27:07 2025
+00:02:36
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9033 Top-5 Accuracy: 0.9994 time: Wed Apr 30 16:27:40 2025
+00:03:09
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.899 Top-5 Accuracy: 0.9961 time: Wed Apr 30 16:28:12 2025
+00:03:42
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.6123 Top-5 Accuracy: 0.8931 time: Wed Apr 30 16:28:47 2025
+00:04:17
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.6456 Top-5 Accuracy: 0.9651 time: Wed Apr 30 16:29:21 2025
+00:04:50
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8009 Top-5 Accuracy: 0.9829 time: Wed Apr 30 16:29:55 2025
+00:05:24
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.779 Top-5 Accuracy: 0.9877 time: Wed Apr 30 16:30:28 2025
+00:05:58
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.7442 Top-5 Accuracy: 0.994 time: Wed Apr 30 16:31:02 2025
+00:06:31
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.7388 Top-5 Accuracy: 0.9318 time: Wed Apr 30 16:31:39 2025
+00:07:08
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxPlus
+	device: cpu
+	time: Wed May 14 15:17:35 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.5224Top-5 Accuracy: 0.9776 time: Wed May 14 15:19:54 2025
+00:02:18
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.7543Top-5 Accuracy: 0.9918 time: Wed May 14 15:20:34 2025
+00:02:58
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9038Top-5 Accuracy: 0.9991 time: Wed May 14 15:21:10 2025
+00:03:35
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9408Top-5 Accuracy: 0.9993 time: Wed May 14 15:21:49 2025
+00:04:14
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9299Top-5 Accuracy: 0.9993 time: Wed May 14 15:22:29 2025
+00:04:54
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9452Top-5 Accuracy: 0.9999 time: Wed May 14 15:23:07 2025
+00:05:31
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9603Top-5 Accuracy: 0.9998 time: Wed May 14 15:23:43 2025
+00:06:08
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9589Top-5 Accuracy: 0.9999 time: Wed May 14 15:24:19 2025
+00:06:44
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9634Top-5 Accuracy: 0.9998 time: Wed May 14 15:24:56 2025
+00:07:20
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9679Top-5 Accuracy: 1.0 time: Wed May 14 15:25:32 2025
+00:07:56
+
+seed: 42
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Wed May 14 15:38:15 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1374Top-5 Accuracy: 0.5705 time: Wed May 14 16:14:21 2025
+00:36:07
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2402Top-5 Accuracy: 0.7526 time: Wed May 14 16:48:38 2025
+01:10:23
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.2865Top-5 Accuracy: 0.8847 time: Wed May 14 17:20:54 2025
+01:42:39
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.3442Top-5 Accuracy: 0.9099 time: Wed May 14 17:54:45 2025
+02:16:30
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4037Top-5 Accuracy: 0.9397 time: Wed May 14 18:29:01 2025
+02:50:46
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.41Top-5 Accuracy: 0.9425 time: Wed May 14 19:00:08 2025
+03:21:53
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5028Top-5 Accuracy: 0.9537 time: Wed May 14 19:31:38 2025
+03:53:23
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5504Top-5 Accuracy: 0.9554 time: Wed May 14 20:01:25 2025
+04:23:10
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.3351Top-5 Accuracy: 0.9285 time: Wed May 14 20:28:29 2025
+04:50:14
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5151Top-5 Accuracy: 0.9543 time: Wed May 14 20:59:35 2025
+05:21:20
+
+seed: 42
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxPlus
+	device: cpu
+	time: Thu May 15 12:40:45 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1294Top-5 Accuracy: 0.5997 time: Thu May 15 13:16:04 2025
+00:35:19
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2485Top-5 Accuracy: 0.8002 time: Thu May 15 13:54:21 2025
+01:13:36
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.3217Top-5 Accuracy: 0.906 time: Thu May 15 14:31:09 2025
+01:50:25
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.4243Top-5 Accuracy: 0.9454 time: Thu May 15 15:08:37 2025
+02:27:52
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4836Top-5 Accuracy: 0.9546 time: Thu May 15 15:44:10 2025
+03:03:25
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.4773Top-5 Accuracy: 0.9554 time: Thu May 15 16:19:41 2025
+03:38:56
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3729Top-5 Accuracy: 0.9464 time: Thu May 15 16:49:18 2025
+04:08:33
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5056Top-5 Accuracy: 0.9555 time: Thu May 15 17:24:03 2025
+04:43:19
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.4958Top-5 Accuracy: 0.9414 time: Thu May 15 17:57:22 2025
+05:16:38
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5594Top-5 Accuracy: 0.9599 time: Thu May 15 18:27:32 2025
+05:46:47
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleDNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Thu May 15 19:07:08 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.8902 Top-5 Accuracy: 0.9961 time: Thu May 15 19:10:33 2025
+00:03:25
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9466 Top-5 Accuracy: 0.9985 time: Thu May 15 19:12:16 2025
+00:05:08
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9749 Top-5 Accuracy: 0.9998 time: Thu May 15 19:14:02 2025
+00:06:54
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9734 Top-5 Accuracy: 0.9999 time: Thu May 15 19:15:41 2025
+00:08:33
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9794 Top-5 Accuracy: 0.9999 time: Thu May 15 19:17:20 2025
+00:10:12
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9801 Top-5 Accuracy: 0.9999 time: Thu May 15 19:19:01 2025
+00:11:53
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9809 Top-5 Accuracy: 1.0 time: Thu May 15 19:20:43 2025
+00:13:34
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9825 Top-5 Accuracy: 0.9998 time: Thu May 15 19:22:23 2025
+00:15:15
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9819 Top-5 Accuracy: 0.9998 time: Thu May 15 19:24:03 2025
+00:16:55
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9831 Top-5 Accuracy: 0.9999 time: Thu May 15 19:26:01 2025
+00:18:53
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Thu May 15 19:26:54 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9139 Top-5 Accuracy: 0.9985 time: Thu May 15 19:29:11 2025
+00:02:17
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9681 Top-5 Accuracy: 0.9999 time: Thu May 15 19:29:45 2025
+00:02:52
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9709 Top-5 Accuracy: 0.9998 time: Thu May 15 19:30:20 2025
+00:03:26
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9622 Top-5 Accuracy: 0.9996 time: Thu May 15 19:30:54 2025
+00:04:00
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9815 Top-5 Accuracy: 1.0 time: Thu May 15 19:31:27 2025
+00:04:34
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9826 Top-5 Accuracy: 0.9999 time: Thu May 15 19:32:02 2025
+00:05:08
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9838 Top-5 Accuracy: 1.0 time: Thu May 15 19:32:37 2025
+00:05:43
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9816 Top-5 Accuracy: 1.0 time: Thu May 15 19:33:11 2025
+00:06:17
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9855 Top-5 Accuracy: 1.0 time: Thu May 15 19:33:45 2025
+00:06:52
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9801 Top-5 Accuracy: 1.0 time: Thu May 15 19:34:19 2025
+00:07:26
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Thu May 15 19:45:15 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9174 Top-5 Accuracy: 0.9983 time: Thu May 15 19:47:39 2025
+00:02:23
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9618 Top-5 Accuracy: 0.9999 time: Thu May 15 19:48:18 2025
+00:03:03
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9619 Top-5 Accuracy: 0.9998 time: Thu May 15 19:48:57 2025
+00:03:42
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9703 Top-5 Accuracy: 1.0 time: Thu May 15 19:49:36 2025
+00:04:21
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9749 Top-5 Accuracy: 0.9999 time: Thu May 15 19:50:15 2025
+00:05:00
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9776 Top-5 Accuracy: 1.0 time: Thu May 15 19:50:52 2025
+00:05:37
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.981 Top-5 Accuracy: 1.0 time: Thu May 15 19:51:30 2025
+00:06:15
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9809 Top-5 Accuracy: 1.0 time: Thu May 15 19:52:07 2025
+00:06:51
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9808 Top-5 Accuracy: 1.0 time: Thu May 15 19:52:44 2025
+00:07:28
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9672 Top-5 Accuracy: 0.9996 time: Thu May 15 19:53:21 2025
+00:08:06
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Thu May 15 19:59:26 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9038 Top-5 Accuracy: 0.9975 time: Thu May 15 20:01:39 2025
+00:02:13
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9308 Top-5 Accuracy: 0.9996 time: Thu May 15 20:02:14 2025
+00:02:48
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9729 Top-5 Accuracy: 1.0 time: Thu May 15 20:02:50 2025
+00:03:23
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9356 Top-5 Accuracy: 0.9981 time: Thu May 15 20:03:27 2025
+00:04:00
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.965 Top-5 Accuracy: 0.9997 time: Thu May 15 20:04:03 2025
+00:04:36
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9795 Top-5 Accuracy: 0.9999 time: Thu May 15 20:04:39 2025
+00:05:13
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9811 Top-5 Accuracy: 1.0 time: Thu May 15 20:05:20 2025
+00:05:53
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.98 Top-5 Accuracy: 1.0 time: Thu May 15 20:06:00 2025
+00:06:34
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9806 Top-5 Accuracy: 0.9999 time: Thu May 15 20:06:43 2025
+00:07:16
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9804 Top-5 Accuracy: 0.9999 time: Thu May 15 20:07:19 2025
+00:07:52
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Fri May 16 16:03:39 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.8746 Top-5 Accuracy: 0.9962 time: Fri May 16 16:05:54 2025
+00:02:15
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9281 Top-5 Accuracy: 0.9993 time: Fri May 16 16:06:30 2025
+00:02:52
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9693 Top-5 Accuracy: 1.0 time: Fri May 16 16:07:07 2025
+00:03:28
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9745 Top-5 Accuracy: 1.0 time: Fri May 16 16:07:43 2025
+00:04:04
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9771 Top-5 Accuracy: 0.9999 time: Fri May 16 16:08:16 2025
+00:04:38
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9787 Top-5 Accuracy: 1.0 time: Fri May 16 16:08:49 2025
+00:05:10
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9811 Top-5 Accuracy: 1.0 time: Fri May 16 16:09:21 2025
+00:05:42
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9786 Top-5 Accuracy: 1.0 time: Fri May 16 16:09:54 2025
+00:06:15
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9783 Top-5 Accuracy: 1.0 time: Fri May 16 16:10:27 2025
+00:06:48
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9811 Top-5 Accuracy: 1.0 time: Fri May 16 16:10:59 2025
+00:07:21
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDyn
+	device: cpu
+	time: Fri May 16 17:10:08 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9191 Top-5 Accuracy: 0.9974 time: Fri May 16 17:12:20 2025
+00:02:12
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9649 Top-5 Accuracy: 0.9999 time: Fri May 16 17:12:53 2025
+00:02:45
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9567 Top-5 Accuracy: 0.9995 time: Fri May 16 17:13:27 2025
+00:03:19
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9681 Top-5 Accuracy: 0.9995 time: Fri May 16 17:14:00 2025
+00:03:52
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9676 Top-5 Accuracy: 0.9995 time: Fri May 16 17:14:34 2025
+00:04:26
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9635 Top-5 Accuracy: 0.9989 time: Fri May 16 17:15:11 2025
+00:05:03
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.098 Top-5 Accuracy: 0.5139 time: Fri May 16 17:15:45 2025
+00:05:37
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.098 Top-5 Accuracy: 0.5139 time: Fri May 16 17:16:19 2025
+00:06:11
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.098 Top-5 Accuracy: 0.5139 time: Fri May 16 17:16:53 2025
+00:06:45
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.098 Top-5 Accuracy: 0.5139 time: Fri May 16 17:17:26 2025
+00:07:18
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDynNew
+	device: cpu
+	time: Fri May 16 17:18:34 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.9339 Top-5 Accuracy: 0.9992 time: Fri May 16 17:20:44 2025
+00:02:10
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.9671 Top-5 Accuracy: 0.9999 time: Fri May 16 17:21:17 2025
+00:02:43
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.9653 Top-5 Accuracy: 0.9999 time: Fri May 16 17:21:52 2025
+00:03:18
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.9757 Top-5 Accuracy: 1.0 time: Fri May 16 17:22:24 2025
+00:03:50
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9725 Top-5 Accuracy: 0.9999 time: Fri May 16 17:22:57 2025
+00:04:23
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9836 Top-5 Accuracy: 1.0 time: Fri May 16 17:23:30 2025
+00:04:56
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9835 Top-5 Accuracy: 1.0 time: Fri May 16 17:24:05 2025
+00:05:30
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9858 Top-5 Accuracy: 1.0 time: Fri May 16 17:24:40 2025
+00:06:05
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9864 Top-5 Accuracy: 1.0 time: Fri May 16 17:25:14 2025
+00:06:39
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9867 Top-5 Accuracy: 0.9999 time: Fri May 16 17:25:47 2025
+00:07:12
+
+seed: 42
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedDynNew
+	device: cpu
+	time: Fri May 16 17:31:00 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1686 Top-5 Accuracy: 0.6655 time: Fri May 16 18:05:06 2025
+00:34:06
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2943 Top-5 Accuracy: 0.7991 time: Fri May 16 18:41:45 2025
+01:10:45
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.3818 Top-5 Accuracy: 0.9037 time: Fri May 16 19:16:16 2025
+01:45:16
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.3565 Top-5 Accuracy: 0.9297 time: Fri May 16 19:53:08 2025
+02:22:08
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4564 Top-5 Accuracy: 0.9497 time: Fri May 16 20:27:51 2025
+02:56:50
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.5284 Top-5 Accuracy: 0.9544 time: Fri May 16 20:59:02 2025
+03:28:01
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5324 Top-5 Accuracy: 0.9578 time: Fri May 16 21:35:13 2025
+04:04:13
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5522 Top-5 Accuracy: 0.9624 time: Fri May 16 22:08:21 2025
+04:37:21
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.5616 Top-5 Accuracy: 0.9637 time: Fri May 16 22:41:12 2025
+05:10:11
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5667 Top-5 Accuracy: 0.9596 time: Fri May 16 23:17:14 2025
+05:46:13
+
+seed: 42
+TRAINER INFO: 
+	client number: 3
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Sat May 17 00:12:39 2025
+	MU:0.05 Beta:0.15
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1716 Top-5 Accuracy: 0.6116 time: Sat May 17 00:53:43 2025
+00:41:04
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.2835 Top-5 Accuracy: 0.7761 time: Sat May 17 01:33:59 2025
+01:21:20
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.2918 Top-5 Accuracy: 0.8872 time: Sat May 17 02:14:53 2025
+02:02:15
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.4276 Top-5 Accuracy: 0.9453 time: Sat May 17 02:55:53 2025
+02:43:14
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4794 Top-5 Accuracy: 0.9467 time: Sat May 17 03:36:57 2025
+03:24:19
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.5128 Top-5 Accuracy: 0.9592 time: Sat May 17 04:18:00 2025
+04:05:22
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.5373 Top-5 Accuracy: 0.9616 time: Sat May 17 04:58:56 2025
+04:46:18
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.5548 Top-5 Accuracy: 0.9601 time: Sat May 17 05:39:38 2025
+05:26:59
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.5604 Top-5 Accuracy: 0.9636 time: Sat May 17 06:20:20 2025
+06:07:41
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.5094 Top-5 Accuracy: 0.9368 time: Sat May 17 07:01:10 2025
+06:48:32
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Sat May 17 14:11:34 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1035 Top-5 Accuracy: 0.5523 time: Sat May 17 15:52:18 2025
+01:40:44
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.1989 Top-5 Accuracy: 0.6971 time: Sat May 17 17:34:12 2025
+03:22:37
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.1917 Top-5 Accuracy: 0.8038 time: Sat May 17 18:52:25 2025
+04:40:51
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.3372 Top-5 Accuracy: 0.8404 time: Sat May 17 20:10:23 2025
+05:58:48
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.2924 Top-5 Accuracy: 0.8787 time: Sat May 17 21:15:48 2025
+07:04:13
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.3496 Top-5 Accuracy: 0.8922 time: Sat May 17 22:28:28 2025
+08:16:54
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3879 Top-5 Accuracy: 0.9028 time: Sun May 18 00:01:34 2025
+09:49:59
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.4203 Top-5 Accuracy: 0.9128 time: Sun May 18 01:11:29 2025
+10:59:54
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.4381 Top-5 Accuracy: 0.9245 time: Sun May 18 02:05:52 2025
+11:54:17
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.4039 Top-5 Accuracy: 0.9364 time: Sun May 18 03:00:59 2025
+12:49:25
+
+seed: 42
+TRAINER INFO: 
+	client number: 20
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 2, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Sun May 18 19:54:21 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.4435 Top-5 Accuracy: 0.8516 time: Sun May 18 19:57:17 2025
+00:02:57
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.5955 Top-5 Accuracy: 0.9304 time: Sun May 18 19:57:41 2025
+00:03:21
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7989 Top-5 Accuracy: 0.9932 time: Sun May 18 19:58:05 2025
+00:03:45
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.8731 Top-5 Accuracy: 0.9971 time: Sun May 18 19:58:29 2025
+00:04:09
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.9116 Top-5 Accuracy: 0.998 time: Sun May 18 19:58:54 2025
+00:04:33
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9367 Top-5 Accuracy: 0.9992 time: Sun May 18 19:59:19 2025
+00:04:58
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9476 Top-5 Accuracy: 0.9995 time: Sun May 18 19:59:44 2025
+00:05:23
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.953 Top-5 Accuracy: 0.9998 time: Sun May 18 20:00:08 2025
+00:05:47
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9507 Top-5 Accuracy: 0.9996 time: Sun May 18 20:00:32 2025
+00:06:11
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9512 Top-5 Accuracy: 0.9998 time: Sun May 18 20:00:56 2025
+00:06:35
+
+seed: 42
+TRAINER INFO: 
+	client number: 20
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 2, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Sun May 18 20:09:23 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.2704 Top-5 Accuracy: 0.8997 time: Sun May 18 20:12:25 2025
+00:03:02
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.596 Top-5 Accuracy: 0.9596 time: Sun May 18 20:12:55 2025
+00:03:32
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7261 Top-5 Accuracy: 0.9889 time: Sun May 18 20:13:22 2025
+00:03:59
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.8386 Top-5 Accuracy: 0.9961 time: Sun May 18 20:13:48 2025
+00:04:26
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.877 Top-5 Accuracy: 0.9976 time: Sun May 18 20:14:15 2025
+00:04:53
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9011 Top-5 Accuracy: 0.9986 time: Sun May 18 20:14:42 2025
+00:05:19
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9204 Top-5 Accuracy: 0.9988 time: Sun May 18 20:15:08 2025
+00:05:45
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.903 Top-5 Accuracy: 0.9983 time: Sun May 18 20:15:34 2025
+00:06:12
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9347 Top-5 Accuracy: 0.9991 time: Sun May 18 20:16:01 2025
+00:06:38
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9397 Top-5 Accuracy: 0.9991 time: Sun May 18 20:16:27 2025
+00:07:04
+
+seed: 42
+TRAINER INFO: 
+	client number: 20
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 2, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Sun May 18 20:42:13 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.3243 Top-5 Accuracy: 0.9052 time: Sun May 18 20:45:23 2025
+00:03:09
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.5728 Top-5 Accuracy: 0.9317 time: Sun May 18 20:45:49 2025
+00:03:35
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7261 Top-5 Accuracy: 0.9865 time: Sun May 18 20:46:14 2025
+00:04:01
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.829 Top-5 Accuracy: 0.996 time: Sun May 18 20:46:40 2025
+00:04:27
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.8856 Top-5 Accuracy: 0.9981 time: Sun May 18 20:47:05 2025
+00:04:52
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.9104 Top-5 Accuracy: 0.9987 time: Sun May 18 20:47:31 2025
+00:05:18
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.9151 Top-5 Accuracy: 0.9985 time: Sun May 18 20:47:56 2025
+00:05:43
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9247 Top-5 Accuracy: 0.9991 time: Sun May 18 20:48:22 2025
+00:06:09
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.938 Top-5 Accuracy: 0.9994 time: Sun May 18 20:48:47 2025
+00:06:34
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9412 Top-5 Accuracy: 0.9993 time: Sun May 18 20:49:13 2025
+00:07:00
+
+seed: 42
+TRAINER INFO: 
+	client number: 20
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 2, global_epoch: 10
+	algorithm: FedDynNew
+	device: cpu
+	time: Sun May 18 21:48:51 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.3378 Top-5 Accuracy: 0.8496 time: Sun May 18 21:51:37 2025
+00:02:46
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.5909 Top-5 Accuracy: 0.9625 time: Sun May 18 21:52:02 2025
+00:03:10
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7316 Top-5 Accuracy: 0.9878 time: Sun May 18 21:52:27 2025
+00:03:36
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.8028 Top-5 Accuracy: 0.9941 time: Sun May 18 21:52:53 2025
+00:04:02
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.8559 Top-5 Accuracy: 0.9968 time: Sun May 18 21:53:20 2025
+00:04:29
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.8816 Top-5 Accuracy: 0.9976 time: Sun May 18 21:53:47 2025
+00:04:56
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8781 Top-5 Accuracy: 0.9974 time: Sun May 18 21:54:13 2025
+00:05:22
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.8697 Top-5 Accuracy: 0.9963 time: Sun May 18 21:54:39 2025
+00:05:48
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.8783 Top-5 Accuracy: 0.9971 time: Sun May 18 21:55:03 2025
+00:06:12
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.8844 Top-5 Accuracy: 0.996 time: Sun May 18 21:55:27 2025
+00:06:36
+
+seed: 42
+TRAINER INFO: 
+	client number: 20
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 2, global_epoch: 10
+	algorithm: Scaffold
+	device: cpu
+	time: Mon May 19 00:43:50 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.4193 Top-5 Accuracy: 0.8431 time: Mon May 19 00:46:28 2025
+00:02:38
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.6667 Top-5 Accuracy: 0.9702 time: Mon May 19 00:46:51 2025
+00:03:01
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.8672 Top-5 Accuracy: 0.997 time: Mon May 19 00:47:14 2025
+00:03:24
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.7968 Top-5 Accuracy: 0.9957 time: Mon May 19 00:47:37 2025
+00:03:47
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.4239 Top-5 Accuracy: 0.948 time: Mon May 19 00:48:01 2025
+00:04:11
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.4933 Top-5 Accuracy: 0.8943 time: Mon May 19 00:48:23 2025
+00:04:33
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Mon May 19 00:53:56 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1195 Top-5 Accuracy: 0.5666 time: Mon May 19 01:38:12 2025
+00:44:16
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.1866 Top-5 Accuracy: 0.6761 time: Mon May 19 02:18:53 2025
+01:24:56
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.1994 Top-5 Accuracy: 0.7456 time: Mon May 19 02:59:40 2025
+02:05:44
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.2357 Top-5 Accuracy: 0.7979 time: Mon May 19 03:39:56 2025
+02:45:59
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.3111 Top-5 Accuracy: 0.8423 time: Mon May 19 04:20:22 2025
+03:26:26
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.33 Top-5 Accuracy: 0.8891 time: Mon May 19 05:00:29 2025
+04:06:33
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3452 Top-5 Accuracy: 0.9064 time: Mon May 19 05:42:37 2025
+04:48:41
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.4078 Top-5 Accuracy: 0.9141 time: Mon May 19 06:26:35 2025
+05:32:39
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.3753 Top-5 Accuracy: 0.9351 time: Mon May 19 07:12:17 2025
+06:18:20
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.4572 Top-5 Accuracy: 0.9333 time: Mon May 19 07:53:27 2025
+06:59:31
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Mon May 19 08:04:21 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1002 Top-5 Accuracy: 0.5732 time: Mon May 19 09:15:10 2025
+01:10:49
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.18 Top-5 Accuracy: 0.6783 time: Mon May 19 10:02:35 2025
+01:58:14
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.1859 Top-5 Accuracy: 0.7627 time: Mon May 19 10:42:56 2025
+02:38:35
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.2612 Top-5 Accuracy: 0.8158 time: Mon May 19 11:22:58 2025
+03:18:37
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.2906 Top-5 Accuracy: 0.8547 time: Mon May 19 12:06:06 2025
+04:01:45
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.3137 Top-5 Accuracy: 0.8813 time: Mon May 19 13:01:18 2025
+04:56:57
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3656 Top-5 Accuracy: 0.9032 time: Mon May 19 13:54:22 2025
+05:50:00
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.3728 Top-5 Accuracy: 0.9198 time: Mon May 19 14:51:50 2025
+06:47:28
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.3964 Top-5 Accuracy: 0.9275 time: Mon May 19 15:51:20 2025
+07:46:58
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.4396 Top-5 Accuracy: 0.9323 time: Mon May 19 16:48:01 2025
+08:43:40
+
+seed: 42
+TRAINER INFO: 
+	client number: 30
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 1, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Tue May 20 13:46:29 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.3616 Top-5 Accuracy: 0.8599 time: Tue May 20 13:50:26 2025
+00:03:57
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.5292 Top-5 Accuracy: 0.9691 time: Tue May 20 13:50:45 2025
+00:04:15
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7111 Top-5 Accuracy: 0.9859 time: Tue May 20 13:51:03 2025
+00:04:34
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.801 Top-5 Accuracy: 0.9943 time: Tue May 20 13:51:23 2025
+00:04:53
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.8621 Top-5 Accuracy: 0.9959 time: Tue May 20 13:51:40 2025
+00:05:11
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.884 Top-5 Accuracy: 0.9963 time: Tue May 20 13:51:59 2025
+00:05:30
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8956 Top-5 Accuracy: 0.9974 time: Tue May 20 13:52:17 2025
+00:05:48
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.8975 Top-5 Accuracy: 0.9975 time: Tue May 20 13:52:36 2025
+00:06:07
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9244 Top-5 Accuracy: 0.9982 time: Tue May 20 13:52:55 2025
+00:06:26
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9319 Top-5 Accuracy: 0.9987 time: Tue May 20 13:53:16 2025
+00:06:47
+
+seed: 42
+TRAINER INFO: 
+	client number: 30
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 1, global_epoch: 10
+	algorithm: FedProx
+	device: cpu
+	time: Tue May 20 14:20:53 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.3157 Top-5 Accuracy: 0.7986 time: Tue May 20 14:24:46 2025
+00:03:53
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.6187 Top-5 Accuracy: 0.9748 time: Tue May 20 14:25:08 2025
+00:04:14
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.6992 Top-5 Accuracy: 0.9853 time: Tue May 20 14:25:27 2025
+00:04:34
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.7695 Top-5 Accuracy: 0.9921 time: Tue May 20 14:25:47 2025
+00:04:54
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.799 Top-5 Accuracy: 0.9939 time: Tue May 20 14:26:07 2025
+00:05:13
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.8605 Top-5 Accuracy: 0.9952 time: Tue May 20 14:26:28 2025
+00:05:35
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8848 Top-5 Accuracy: 0.9965 time: Tue May 20 14:26:50 2025
+00:05:56
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.891 Top-5 Accuracy: 0.9973 time: Tue May 20 14:27:12 2025
+00:06:18
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.8942 Top-5 Accuracy: 0.9974 time: Tue May 20 14:27:36 2025
+00:06:42
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9066 Top-5 Accuracy: 0.9976 time: Tue May 20 14:27:57 2025
+00:07:04
+
+seed: 42
+TRAINER INFO: 
+	client number: 30
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 1, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Tue May 20 15:46:16 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.3038 Top-5 Accuracy: 0.8641 time: Tue May 20 15:49:47 2025
+00:03:31
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.6241 Top-5 Accuracy: 0.9738 time: Tue May 20 15:50:02 2025
+00:03:47
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7108 Top-5 Accuracy: 0.9865 time: Tue May 20 15:50:18 2025
+00:04:03
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.7664 Top-5 Accuracy: 0.9907 time: Tue May 20 15:50:34 2025
+00:04:19
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.8611 Top-5 Accuracy: 0.9958 time: Tue May 20 15:50:50 2025
+00:04:35
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.8568 Top-5 Accuracy: 0.9958 time: Tue May 20 15:51:06 2025
+00:04:51
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8978 Top-5 Accuracy: 0.9972 time: Tue May 20 15:51:22 2025
+00:05:06
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9113 Top-5 Accuracy: 0.9979 time: Tue May 20 15:51:37 2025
+00:05:22
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9199 Top-5 Accuracy: 0.9986 time: Tue May 20 15:51:53 2025
+00:05:38
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9276 Top-5 Accuracy: 0.9986 time: Tue May 20 15:52:08 2025
+00:05:53
+
+seed: 42
+TRAINER INFO: 
+	client number: 30
+	model: SimpleCNN
+	optimizer: SGD, learning_rate: 0.1
+	data: MNIST data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 1, global_epoch: 10
+	algorithm: FedAVG
+	device: cpu
+	time: Tue May 20 16:11:43 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.4085 Top-5 Accuracy: 0.8713 time: Tue May 20 16:15:20 2025
+00:03:37
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.611 Top-5 Accuracy: 0.9746 time: Tue May 20 16:15:36 2025
+00:03:53
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.7295 Top-5 Accuracy: 0.9859 time: Tue May 20 16:15:53 2025
+00:04:10
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.7735 Top-5 Accuracy: 0.9919 time: Tue May 20 16:16:09 2025
+00:04:26
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.8598 Top-5 Accuracy: 0.9963 time: Tue May 20 16:16:25 2025
+00:04:42
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.8695 Top-5 Accuracy: 0.9963 time: Tue May 20 16:16:43 2025
+00:05:00
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.8402 Top-5 Accuracy: 0.9961 time: Tue May 20 16:17:00 2025
+00:05:17
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.9179 Top-5 Accuracy: 0.9984 time: Tue May 20 16:17:16 2025
+00:05:33
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.9215 Top-5 Accuracy: 0.9987 time: Tue May 20 16:17:32 2025
+00:05:49
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.9209 Top-5 Accuracy: 0.9987 time: Tue May 20 16:17:47 2025
+00:06:04
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Tue May 20 23:59:07 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1152 Top-5 Accuracy: 0.5682 time: Wed May 21 00:52:41 2025
+00:53:34
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.1804 Top-5 Accuracy: 0.7068 time: Wed May 21 01:35:06 2025
+01:35:59
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.1637 Top-5 Accuracy: 0.7718 time: Wed May 21 02:22:31 2025
+02:23:23
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.2995 Top-5 Accuracy: 0.8151 time: Wed May 21 03:08:42 2025
+03:09:35
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.2565 Top-5 Accuracy: 0.8583 time: Wed May 21 03:53:26 2025
+03:54:18
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.3763 Top-5 Accuracy: 0.8878 time: Wed May 21 04:35:37 2025
+04:36:30
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3433 Top-5 Accuracy: 0.9039 time: Wed May 21 05:20:48 2025
+05:21:41
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.4077 Top-5 Accuracy: 0.9146 time: Wed May 21 06:05:06 2025
+06:05:59
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.4115 Top-5 Accuracy: 0.9241 time: Wed May 21 06:51:31 2025
+06:52:24
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.4456 Top-5 Accuracy: 0.932 time: Wed May 21 07:35:33 2025
+07:36:26
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Wed May 21 09:31:39 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1218 Top-5 Accuracy: 0.5686 time: Wed May 21 10:20:55 2025
+00:49:17
+SERVER@localhost:9000 INFO: Global Epoch[2|10]Top-1 Accuracy: 0.1965 Top-5 Accuracy: 0.6954 time: Wed May 21 11:06:51 2025
+01:35:12
+SERVER@localhost:9000 INFO: Global Epoch[3|10]Top-1 Accuracy: 0.1881 Top-5 Accuracy: 0.7345 time: Wed May 21 11:57:10 2025
+02:25:31
+SERVER@localhost:9000 INFO: Global Epoch[4|10]Top-1 Accuracy: 0.2813 Top-5 Accuracy: 0.8036 time: Wed May 21 12:43:50 2025
+03:12:11
+SERVER@localhost:9000 INFO: Global Epoch[5|10]Top-1 Accuracy: 0.2937 Top-5 Accuracy: 0.8312 time: Wed May 21 13:42:04 2025
+04:10:26
+SERVER@localhost:9000 INFO: Global Epoch[6|10]Top-1 Accuracy: 0.3663 Top-5 Accuracy: 0.8731 time: Wed May 21 14:45:22 2025
+05:13:43
+SERVER@localhost:9000 INFO: Global Epoch[7|10]Top-1 Accuracy: 0.3841 Top-5 Accuracy: 0.8954 time: Wed May 21 15:46:26 2025
+06:14:47
+SERVER@localhost:9000 INFO: Global Epoch[8|10]Top-1 Accuracy: 0.4163 Top-5 Accuracy: 0.9111 time: Wed May 21 16:55:35 2025
+07:23:56
+SERVER@localhost:9000 INFO: Global Epoch[9|10]Top-1 Accuracy: 0.3921 Top-5 Accuracy: 0.9325 time: Wed May 21 17:39:46 2025
+08:08:07
+SERVER@localhost:9000 INFO: Global Epoch[10|10]Top-1 Accuracy: 0.4288 Top-5 Accuracy: 0.9328 time: Wed May 21 18:21:54 2025
+08:50:15
+
+seed: 42
+TRAINER INFO: 
+	client number: 10
+	model: ResNet18
+	optimizer: SGD, learning_rate: 0.1
+	data: CIFAR10 data_path: ./datasets, alpha: 0.1, batch_size: 64
+	local_epoch: 3, global_epoch: 10
+	algorithm: FedProxCtrl
+	device: cpu
+	time: Thu May 22 13:54:40 2025
+SERVER@localhost:9000 INFO: Global Epoch[1|10]Top-1 Accuracy: 0.1024 Top-5 Accuracy: 0.5601 time: Thu May 22 15:05:47 2025
+01:11:07

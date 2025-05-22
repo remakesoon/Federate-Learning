@@ -1,0 +1,157 @@
+server:
+  ip: "localhost"
+  port: 9000
+
+# The number of clients
+n_clients: 30
+
+client1:
+  ip: "localhost"
+  port: 8001
+
+client2:
+  ip: "localhost"
+  port: 8002
+
+client3:
+  ip: "localhost"
+  port: 8003
+
+client4:
+  ip: "localhost"
+  port: 8004
+
+client5:
+  ip: "localhost"
+  port: 8005
+
+client6:
+  ip: "localhost"
+  port: 8006
+
+client7:
+  ip: "localhost"
+  port: 8007
+
+client8:
+  ip: "localhost"
+  port: 8008
+
+client9:
+  ip: "localhost"
+  port: 8009
+
+client10:
+  ip: "localhost"
+  port: 8010
+
+client11:
+  ip: "localhost"
+  port: 8011
+
+client12:
+  ip: "localhost"
+  port: 8012
+
+client13:
+  ip: "localhost"
+  port: 8013
+
+client14:
+  ip: "localhost"
+  port: 8014
+
+client15:
+  ip: "localhost"
+  port: 8015
+
+client16:
+  ip: "localhost"
+  port: 8016
+
+client17:
+  ip: "localhost"
+  port: 8017
+
+client18:
+  ip: "localhost"
+  port: 8018
+
+client19:
+  ip: "localhost"
+  port: 8019
+
+client20:
+  ip: "localhost"
+  port: 8020
+
+client21:
+  ip: "localhost"
+  port: 8021
+
+client22:
+  ip: "localhost"
+  port: 8022
+
+client23:
+  ip: "localhost"
+  port: 8023
+
+client24:
+  ip: "localhost"
+  port: 8024
+
+client25:
+  ip: "localhost"
+  port: 8025
+
+client26:
+  ip: "localhost"
+  port: 8026
+
+client27:
+  ip: "localhost"
+  port: 8027
+
+client28:
+  ip: "localhost"
+  port: 8028
+
+client29:
+  ip: "localhost"
+  port: 8029
+
+client30:
+  ip: "localhost"
+  port: 8030
+  
+# optimizer
+optimizer:
+  type: "SGD"
+  lr: 0.1
+
+# model
+model: "SimpleCNN"
+
+# dataset
+data: "MNIST"
+
+# mini-batch size
+batch_size: 64
+
+# the path of dataset
+path: "./datasets"
+
+# the parameter to control NON-IID
+alpha: 0.1
+
+# local training round
+local_epoch: 1
+
+# global training round
+global_epoch: 10
+
+algorithm: "FedProx" # 参数MU不太好加，在./federated/core/clients/fedprox_client的默认参数中改MU的值
+
+# device
+device: "cpu"
