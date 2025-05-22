@@ -127,20 +127,10 @@ models下主要包括用torch编写的网络，默认添加了一个简单的CNN
 
 - 主进程开多个子进程版本
 
-  使用默认的config_mp.yml文件
+  使用默认的config_mp_mnist.yml文件
 
   ``````
-activate FL
-python main.py --config="./examples/FedAVG/config_mp.yml" --seed=42
-  
-activate FL
-python main.py --config="./examples/FedProx/config_mp.yml" --seed=42
-
-activate FL
-python main.py --config="./examples/Scaffold/config_mp.yml" --seed=42
-
-activate FL
-python main.py --config="./examples/FedDyn/config_mp.yml" --seed=31
+  python main.py --config="./examples/FedAVG/config_mp.yml" --seed=42
 
   ``````
 
