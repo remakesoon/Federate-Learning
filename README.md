@@ -130,8 +130,7 @@ models下主要包括用torch编写的网络，默认添加了一个简单的CNN
   使用默认的config_mp_mnist.yml文件
 
   ``````
-  python main.py --config="./examples/FedAVG/config_mp.yml" --seed=42
-
+  python main.py --config="./examples/FedAVG/config_mp_mnist.yml" --seed=42
   ``````
 
   该文件配置了IID情况下，将MNIST的训练集分到十个客户端进行联邦学习（测试集放在server中），使用了一个简单的CNN网络，
@@ -139,41 +138,6 @@ models下主要包括用torch编写的网络，默认添加了一个简单的CNN
   所有设备使用cpu。
 
   在设置随机数种子为42的情况下，最佳的Top-1 准确率为98.87%，最佳的Top-5 准确率为100%。
-- 多进程版版本
-
-  使用./config_distributed目录下的配置文件，首先打开服务器
-
-  ``````
-  python main.py --config="./examples/FedAVG/config_distributed/server.yml" --arch="distributed" --seed=42
-  ``````
-
-  再打开三个终端分别输入
-
-  ``````
-  python main.py --config="./examples/FedAVG/config_distributed/client1.yml" --arch="distributed" --seed=42
-  python main.py --config="./examples/FedAVG/config_distributed/client2.yml" --arch="distributed" --seed=42
-  python main.py --config="./examples/FedAVG/config_distributed/client3.yml" --arch="distributed" --seed=42
-  ``````
-
-  除了客户端数量改为3，其余配置与开子进程一致。
-
-  在随机数种子为42的情况下，最佳的Top-1 精度为98.75%，最佳的Top-5精度为100%。
-- 分布式版本
-
-  开启服务器后，服务器会依据狄利克雷分布切分数据集到./distributed_data目录下，暂时需要手动移动这些数据到对应的client设备上
-
-  并分别在各自的设备上敲入
-
-  ``````
-  python main.py --config="./examples/FedAVG/config_distributed/client1.yml" --arch="distributed" --seed=42
-  python main.py --config="./examples/FedAVG/config_distributed/client2.yml" --arch="distributed" --seed=42
-  python main.py --config="./examples/FedAVG/config_distributed/client3.yml" --arch="distributed" --seed=42
-  ``````
-
-  结果与多进程版本一致
-  
-  在随机数种子为42的情况下，最佳的Top-1 精度为99.00%，最佳的Top-5精度为100%。
-
 ## 拓展
 
 主要从从以下四个方向进行拓展
